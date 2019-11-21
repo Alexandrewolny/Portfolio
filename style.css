@@ -1,0 +1,46 @@
+.navbar  {
+   background-color:white
+}
+
+
+
+.jumbotron {
+
+    background: url("Img/background.jpg");
+}
+
+.display-4 {
+    text-align: center;
+    color: #FFF;
+}
+
+
+
+.lol {
+    text-align: center;
+}
+
+#competencesimg {
+  height: 30%;
+  width: 20%;
+  text-align: center;
+}
+
+
+.font {
+  font-family: 'Lobster', cursive;
+  font-size: 2.5em;
+}
+
+
+.un {
+  margin-top: -10%;
+ 
+}
+
+/* .backgbody {
+  background:url("Img/background3.jpg");
+  background-repeat: no-repeat;
+} */
+
+
