@@ -1,3 +1,8 @@
+html{
+  scroll-behavior: smooth;
+}
+
+
 .navbar  {
    background-color:white
 }
@@ -38,9 +43,43 @@
  
 }
 
-/* .backgbody {
-  background:url("Img/background3.jpg");
-  background-repeat: no-repeat;
-} */
+.apdm {
+  margin-left: 25%;
+}
 
 
+.buttonliens {
+  border-radius: 5%;
+  background-image:linear-gradient(white, black);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.footer {
+  background-image:linear-gradient(white, black);
+  
+}
+
+
+.move{
+  margin-left: 3%;
+}
+
+@media screen and (min-width: 640px) {
+  .move{
+    margin-left: 3%;
+  }
+
+  .foot {
+    margin-left: -3%;
+  }
+
+ 
+}
+
+a:hover {
+  color:black
+}
