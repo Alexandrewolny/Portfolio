@@ -80,6 +80,67 @@ a {
  
 }
 
-a:hover {
-  color:black
+@media screen and (max-width: 640px) {
+  .move{
+    margin-left: 13%;
+  }
+
+  .font{
+    margin-left: 30%;
+  }
+
+  .foot {
+    margin-left: 19%;
+  }
+
+  .apdm {
+    margin-left: -20%;
+  }
+
+  .formation {
+    margin-left: -8%;
+  }
+
+  .realisation{
+    margin-left: -13%;
+  }
+
+  .competence{
+    margin-left: -13%;
+  }
+
+  .ligne {
+    width : 80%;
+    background-color: black;
+    
+    
+  }
+ 
+ 
 }
+
+.ligne {
+  width : 40%;
+  background-color: black;
+  
+  
+}
+
+.sticker {
+
+  width: 10%;
+  
+  height: 10%;
+
+ margin-left: 45.5%;
+
+ margin-top: 5%;
+  }
+  
+
+  
+  .example-1 .sticker-img {
+  
+  background-image: url(llllll.jpg);
+  
+  }

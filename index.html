@@ -27,16 +27,19 @@
               <a class="nav-link" href="#">Accueil</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Compétences</a>
+              <a class="nav-link" href="#compétences">Compétences</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Réalisations</a>
+              <a class="nav-link" href="#réalisation">Réalisations</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Formation</a>
+              <a class="nav-link" href="#formation">Formation</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#liens">Liens</a>
               </li>
            
           </ul>
@@ -52,29 +55,37 @@
         
         <div class="text-center">
           <button type="button" class="btn btn-outline-light" id="click" onclick="foo(this);"><a href="MONCV.pdf" target="_blank" class="test">CV format PDF</a></button>
+          <div class="sticker example-1"></div> 
       </div>
       </div>
 
       
+
 <div class="container">
           <div class="col-lg-12 offset-lg-1">
-              <p class="font"><span class="apdm">A propos de moi </span></p>
+               <p class="font"><span class="apdm">A propos de moi </span> </p> 
           </div>
               <div class="col-lg-12">
-                Autodidacte depuis 3 ans dans le développement web , j'ai entrepri des recherches d'écoles dans le but d'étoffer mes compétences.
+                Autodidacte depuis 3 ans dans le développement web , j'ai entrepris des recherches d'écoles dans le but d'étoffer mes compétences.
                 Je suis perpetuellement en recherche de challenge. L'année que j'ai réalisé en cours m'a permis de prendre du niveau en langage informatique , mais 
-                surtout en logique. J'ai également acquis des compétences  de compréhension client grâce à mon stage réalisé pour Sud Rail. <br> <br>
-                Je suis passioné par le Football , je suis vice capitaine d'une equipe licencié à la FFF. Mes autres activités sont principalement les sorties entre amis , les jeux vidéos
-                & les Echecs.
+                surtout en logique. J'ai également acquis des compétences  de compréhension client grâce à mon stage réalisé pour Sud Rail. 
+                <br> <br>
+                Je suis passioné par le Football , je suis vice capitaine d'une equipe licencié à la FFF. Mes autres activités sont principalement les sorties entre amis & les jeux vidéos.
                 </div>
                 </div>
 
                 <br>
+
+                <hr class="ligne">
+
+                <br>
               
+
+                <div id="compétences">
     <div class="container">
         <div class="row">
           <div class="col-lg-6">
-          <p class="font"> Compétences </p> 
+          <p class="font"><span class="competence"> Compétences</span> </p> 
 
           Langages : 
 
@@ -155,14 +166,27 @@
 		<i class="far fa-star"></i>
 		<i class="far fa-star"></i>
 		<i class="far fa-star"></i>
+    <i class="far fa-star"></i>
+    
+    <br>
+    <br>
+    
+    ReactJS : 
+    <i class="fa fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
 		<i class="far fa-star"></i>
       
          </div>
+      
          
+         <div id="réalisation"></div>
           <div class="col-lg-6">
-            <p class="font">Réalisations</p>
+            <p class="font"><span class="realisation">Réalisations</span></p>
+            
 
-            Dématerialisation d'un formulaire papier , maquettage puis prototypage.
+            Dématerialisation d'un formulaire papier dans le cadre de mon premier stage. 
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -198,10 +222,13 @@
         
         <br>
 
+
+
+        <div id="formation"></div>
         <div class="container">
             <div class="row">
               <div class="col-lg-6">
-                  <p class="font">Formation</p>
+                  <p class="font"><span class="formation">Formation</span></p>
 
                  Titre Professionel Développeur Web & Web Mobile - Bac +2  <br>
                  <o>Greta Grand Hainaut , Douai.</o>
@@ -210,7 +237,7 @@
               
 
 
-
+              <div id="contact"></div>
               <div class="col-lg-6">
                   <p class="font">Contact</p>
                   
@@ -239,6 +266,7 @@
     <br>
     <br>
 
+    <div id="liens"></div>
             <div class="container">
               <div class="offset-lg-5">
             <p class="font">Mes liens</p>
@@ -272,5 +300,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="script.js"></script>
+    <script type="text/javascript" src="sticker.min.js"></script>
   </body>
 </html>
