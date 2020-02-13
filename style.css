@@ -73,9 +73,7 @@ a {
     margin-left: 3%;
   }
 
-  .foot {
-    margin-left: -3%;
-  }
+ 
 
  
 }
@@ -114,6 +112,10 @@ a {
     background-color: black;
     
     
+  }
+
+  .example-1 .sticker-img {
+    display: none;
   }
  
  
