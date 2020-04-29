@@ -91,3 +91,48 @@ https://medium.com/@AmJustSam
      padding: 5px 15px;
      border: 0;
    }
+
+   
+
+
+   
+    
+
+    .myButton {
+      box-shadow: 3px 4px 0px 0px #1564ad;
+      background:linear-gradient(to bottom, #853c42 5%, #378de5 100%);
+      background-color:#853c42;
+      border-radius:5px;
+      border:1px solid #337bc4;
+      display:inline-block;
+      cursor:pointer;
+      color:#ffffff;
+      font-family:Arial;
+      font-size:10px;
+      font-weight:bold;
+      padding:12px 44px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #528ecc;
+    }
+    .myButton:hover {
+      background:linear-gradient(to bottom, #378de5 5%, #853c42 100%);
+      background-color:#378de5;
+    }
+    .myButton:active {
+      position:relative;
+      top:1px;
+    }
+    
+   
+    .lol {
+      
+      border-radius: 6px;
+    }
+
+    
+    @media screen and (max-width: 1040px) 
+    {
+      .lol {
+        font-size: 125%;
+      }
+    }
