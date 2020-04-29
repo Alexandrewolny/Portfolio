@@ -129,10 +129,19 @@ https://medium.com/@AmJustSam
       border-radius: 6px;
     }
 
+    .user-name {
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      font-size: 17px;
+    }
+
     
     @media screen and (max-width: 1040px) 
     {
       .lol {
-        font-size: 125%;
+        font-size: 155%;
+        width: 110%;
+        margin-left: -10px;
+        height: 35px;
+        
       }
     }
