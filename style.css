@@ -54,7 +54,9 @@ html{
 
 .buttonliens {
   border-radius: 5%;
-  background-image:linear-gradient(white, black);
+  box-shadow: 12px 6px 2px 1px rgba(0, 0, 255, .2);
+  text-align: center;
+  
 }
 
 /*
@@ -67,8 +69,18 @@ a {
 
 /* Couleur du pied de page */
 .footer {
-  background-image:linear-gradient(white, black);
+  background-image: url("img/background.jpg");
   
+}
+
+/* Designed by alexandre wolny */
+
+.foot {
+  color: antiquewhite;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
+  text-align: center;
+  margin: auto;
 }
 
 
@@ -98,9 +110,7 @@ a {
     margin-left: 30%;
   }
 
-  .foot {
-    margin-left: 19%;
-  }
+ 
 
   .apdm {
     margin-left: -20%;
@@ -154,7 +164,7 @@ a {
 
  margin-left: 45.5%;
 
- margin-top: 5%;
+ margin-top: 3%;
   }
   
 

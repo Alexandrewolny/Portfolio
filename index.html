@@ -17,7 +17,7 @@ https://medium.com/@AmJustSam/how-to-do-css-only-frosted-glass-effect-e2666bafab
     <div class="user-login-box">
       <span class="user-icon"></span>
 
-      <form action="indexx.html" onsubmit="return valider()"
+      <form  action="indexx.html" onsubmit="return valider()"
       method="get" name="formSaisie">
 
       <div class="user-name">Alexandre Wolny</div>
@@ -40,9 +40,9 @@ https://medium.com/@AmJustSam/how-to-do-css-only-frosted-glass-effect-e2666bafab
 <script>
     
 function valider() {
-    // si la valeur du champ prenom est non vide
-  if(document.formSaisie.prenom.value != "AlexandreWolny") {
-    alert("Saisissez le mot de passe à nouveau ! ");
+    var mdp = "AlexandreWolny";
+  if(document.formSaisie.prenom.value != mdp) {
+    alert("Mauvais mot de passe , veuillez le saisir à nouveau ! ");
 
     return false;
   }
